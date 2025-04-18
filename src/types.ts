@@ -1,7 +1,7 @@
 import type { ExcludeReadonly } from './typeUtils.js';
 
 type AcceptedWitherValue<T> =
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   T extends Record<any, string> ? T | BuildOf<T> : T;
 
 type OneShotBuilder<
