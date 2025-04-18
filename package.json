@@ -1,6 +1,6 @@
 {
   "name": "rots-builder",
-  "version": "0.9",
+  "version": "1.0.0",
   "description": "TypeSafe generic builder pattern for TypeScript",
   "type": "module",
   "main": "./dist/index.cjs",
