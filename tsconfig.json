@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+    "target": "esnext",
+    "strict": true,
+    "lib": ["DOM", "ES2024.ArrayBuffer"],
+    "exactOptionalPropertyTypes": false,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "suppressExcessPropertyErrors": false,
+    "types": ["vitest/importMeta", "node"],
+    "noEmit": true,
+    "declaration": false,
+    "allowJs": true
+  },
+  "include": ["bin", "src/**/*.ts", "test/**/*.ts", "eslint.config.mts", "vitest.config.ts", "src/b64/polyfill-install.js", "src/b64/polyfill-core.js"],
+  "exclude": ["node_modules", ".tsup"]
+}
